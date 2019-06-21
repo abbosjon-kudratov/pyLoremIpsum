@@ -15,6 +15,7 @@ ut labore et dolore magna aliqua."""
 #   ut labore et dolore magna aliqua.'''
 
 
+#LISTS = ordered, changable
 someList=["something", 'somethong2', "something3"]
 newList=someList.copy()
 newList1=list(newList)
@@ -29,7 +30,7 @@ for x in someList:
         print("The length of the resulting list is now {}".format(len(someList)))  #format method of string used with placeholders
     else: break
 print(newList2[1:])
-
+""""
 if(a<b):
     print("hello world!!!!")
     print("sdfsf")
@@ -57,4 +58,26 @@ if(a<b):
 
 else:
     print("you're screwed")
+"""
+
+#TUPLES = ordered, but unchangable
+
+newTuple=("apple", 'sausage', 'juice', 'cake')  #cannot change anything here after declaration
+
+if "applsdfe" not in newTuple:
+    print("Apple juice is not in this tupple")
+    #del newTuple    #to delete it completely
+
+    #make another new tuple:
+    newTuple1=tuple(newTuple)
+    print(newTuple1)
+    del newTuple1
+
+    newTuple2 = tuple(('first', 'second','third', 'first'))
+    print(newTuple2)
+    print("there are {} {} items in this tuppple!".format(newTuple2.count('first'),"'first'"))
+
+
+
+
 
