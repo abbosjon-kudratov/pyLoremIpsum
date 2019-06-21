@@ -79,5 +79,19 @@ if "applsdfe" not in newTuple:
 
 
 
+#SETS = unordered and unindexed
 
+newSet1={"ak", 'comedy', 'hkludy'}
+#print(newSet1)  #Sets are unordered, so the items will appear in a random order.
 
+testString1=''
+for y in newSet1:
+    print(y)
+    testString1+=(y)
+print(testString1)
+
+if('banana' not in newSet1): print("\nbananas are not here")
+
+newSet1.add('lastWord')
+newSet1.update(['so20', 'adfadf', 'goof'])
+print(newSet1)
