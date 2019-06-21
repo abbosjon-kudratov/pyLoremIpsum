@@ -20,7 +20,9 @@ someList=["something", 'somethong2', "something3"]
 for x in someList:
     # print(x)
     if (x=="something"):
+        someList.pop()
         print("nothing!!!")
+        print("The length of the resulting list is now {}".format(len(someList)))  #format method of string used with placeholders
     else: break
 
 if(a<b):
