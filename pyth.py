@@ -16,7 +16,11 @@ ut labore et dolore magna aliqua."""
 
 
 someList=["something", 'somethong2', "something3"]
-
+newList=someList.copy()
+newList1=list(newList)
+newList2=list(("somethig",'sdfsfd','sdfsf'))
+newList2.append('newStuff')
+newList2.extend(newList)
 for x in someList:
     # print(x)
     if (x=="something"):
@@ -24,6 +28,7 @@ for x in someList:
         print("nothing!!!")
         print("The length of the resulting list is now {}".format(len(someList)))  #format method of string used with placeholders
     else: break
+print(newList2[1:])
 
 if(a<b):
     print("hello world!!!!")
