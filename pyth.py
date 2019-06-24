@@ -15,6 +15,13 @@ ut labore et dolore magna aliqua."""
 #   ut labore et dolore magna aliqua.'''
 
 
+def dict_print_function():  #to print the elements inside dictionary
+    for x in newAddict:
+        print(x, newAddict[x])
+
+
+
+
 #LISTS = ordered, changable
 someList=["something", 'somethong2', "something3"]
 newList=someList.copy()
@@ -81,7 +88,7 @@ if "applsdfe" not in newTuple:
 
 #SETS = unordered and unindexed
 
-newSet1={"ak", 'comedy', 'hkludy'}
+newSet1={"ak", 'comedy', 'hkludy'}   #note the curly brackets
 #print(newSet1)  #Sets are unordered, so the items will appear in a random order.
 
 testString1=''
@@ -93,5 +100,79 @@ print(testString1)
 if('banana' not in newSet1): print("\nbananas are not here")
 
 newSet1.add('lastWord')
-newSet1.update(['so20', 'adfadf', 'goof'])
+newSet1.update(['so20', 'adfadf', 'goof']) #add this stuff to set
 print(newSet1)
+
+newSet1.remove('goof') #will raise error if 'goof' is not in set
+newSet1.discard('goof') #will not give error if 'goof' is not in set
+
+rand=newSet1.pop()  #this will not return the last element, 'cause there's no order
+print(rand)
+
+newSet1.clear()  #empty the set
+del newSet1 #completely delete the set
+
+thisset = set(("apple", "banana", "cherry")) # note the double round-brackets  USING THE SET CONSTRUCTOR
+print(thisset)
+
+
+
+#NOW TIME FOR DICTIONARIES
+newAddict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1977
+}
+print(newAddict)
+print(newAddict['brand']+' '+newAddict.get('model')+'is a good car')
+
+x=newAddict['model']
+x=newAddict.get('model')  #the same as previous
+print(x)
+
+newAddict['brand']='chevvy'
+newAddict['model']='camaro'
+newAddict['year']=2018
+print(newAddict)
+
+for x in newAddict:
+    print(x,newAddict[x])
+
+for x,y in newAddict.items(): #same as previous one
+    print(x,y)
+
+for x in newAddict.values():
+    print(x) #print only values
+
+
+if 'model' in newAddict:  #check if the key exists , but cannot check the values like this
+    print('yes it really exists')
+else: print('go to hell')
+
+print('This dictionary has {} items'.format(len(newAddict)))
+
+newAddict['color']='red'
+
+print('Now After adding one property This dictionary has {} items'.format(len(newAddict)))
+print('here are they:')
+dict_print_function()
+
+print('\n after popping:')
+newAddict.popitem()
+dict_print_function()
+
+
+print('\n after popping model')
+newAddict.pop('model')
+dict_print_function()
+
+
+newDictionary1 = newAddict.copy() #copy the dictionary
+newDictionary2=dict(newAddict) #copy the dictionary
+print(newDictionary2)
+
+
+thisdict =	dict(brand="Ford", model="Mustang", year=1964)  #note that not double brackets
+# note that keywords are not string literals
+# note the use of equals rather than colon for the assignment
+print(thisdict)
