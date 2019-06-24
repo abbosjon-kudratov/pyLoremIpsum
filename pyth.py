@@ -19,6 +19,9 @@ def dict_print_function():  #to print the elements inside dictionary
     for x in newAddict:
         print(x, newAddict[x])
 
+def dict_print(**data):   #better function to print dictionary keys and values
+    for x in data:
+        print(x, data[x])
 
 
 
@@ -155,7 +158,9 @@ newAddict['color']='red'
 
 print('Now After adding one property This dictionary has {} items'.format(len(newAddict)))
 print('here are they:')
-dict_print_function()
+dict_print_function() #it can print only one this predefined dictionary
+#OR usinf a better function
+dict_print(**newAddict)  #this can print any dictionary
 
 print('\n after popping:')
 newAddict.popitem()
@@ -175,4 +180,14 @@ print(newDictionary2)
 thisdict =	dict(brand="Ford", model="Mustang", year=1964)  #note that not double brackets
 # note that keywords are not string literals
 # note the use of equals rather than colon for the assignment
-print(thisdict)
+#print(thisdict)
+dict_print(**thisdict)
+
+
+
+keys = ('brand', 'year', 'location')
+values = ('google', 1996, 'California,USA')
+companyDict = dict(zip(keys, values))    #CREATING DICTIONARY FROM  2 LISTS or TUPLES
+dict_print(**companyDict)
+
+
