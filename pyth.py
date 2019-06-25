@@ -191,3 +191,20 @@ companyDict = dict(zip(keys, values))    #CREATING DICTIONARY FROM  2 LISTS or T
 dict_print(**companyDict)
 
 
+
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.update({"color": "White"})  #UPDATE used for inserting new or editing the existing elements
+
+dict_print(**car)
+car.update({'color':'blue'})
+print('45s4df5s4')
+#dict_print(**car)
+
+
+x = car.setdefault('color', 'red')  #if the 'color' key exists the 'red' value has no effect, else=> create the key with that value
+dict_print(**car)
