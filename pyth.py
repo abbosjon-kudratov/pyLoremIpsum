@@ -208,3 +208,14 @@ print('45s4df5s4')
 
 x = car.setdefault('color', 'red')  #if the 'color' key exists the 'red' value has no effect, else=> create the key with that value
 dict_print(**car)
+
+j, k, l = 15, 29, 56
+
+print("First is true") if j > k else print('Second is true!')  #one line if-else statement
+
+#this is multiple if-elese in one line (only if statement has one statement to execute!)
+print("First is bigger") if j > k else print("They are equal") if j == k else print("Damn! Again Second is bigger!")
+
+if(j>k or l<k): print('something is wrong')
+elif (j<k and k<l): print('this is good')
+else: print('not good at all')
