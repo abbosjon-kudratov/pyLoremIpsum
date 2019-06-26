@@ -238,3 +238,21 @@ else:   #this will execute after loop is over
 
 for x in range(2, 30, 3):  #third parameter is by how much to increment
   print(x)
+
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+#nested for loops
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+
+
+def my_function(country = "Norway"):  #default value for arguments
+  print("I am from " + country)
+
+my_function("Sweden")
+my_function("India")
+my_function()
