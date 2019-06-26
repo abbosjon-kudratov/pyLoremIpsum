@@ -19,7 +19,7 @@ def dict_print_function():  #to print the elements inside dictionary
     for x in newAddict:
         print(x, newAddict[x])
 
-def dict_print(**data):   #better function to print dictionary keys and values
+def dict_print(data):   #better function to print dictionary keys and values
     for x in data:
         print(x, data[x])
 
@@ -160,7 +160,7 @@ print('Now After adding one property This dictionary has {} items'.format(len(ne
 print('here are they:')
 dict_print_function() #it can print only one this predefined dictionary
 #OR usinf a better function
-dict_print(**newAddict)  #this can print any dictionary
+dict_print(newAddict)  #this can print any dictionary
 
 print('\n after popping:')
 newAddict.popitem()
@@ -181,14 +181,14 @@ thisdict =	dict(brand="Ford", model="Mustang", year=1964)  #note that not double
 # note that keywords are not string literals
 # note the use of equals rather than colon for the assignment
 #print(thisdict)
-dict_print(**thisdict)
+dict_print(thisdict)
 
 
 
 keys = ('brand', 'year', 'location')
 values = ('google', 1996, 'California,USA')
 companyDict = dict(zip(keys, values))    #CREATING DICTIONARY FROM  2 LISTS or TUPLES
-dict_print(**companyDict)
+dict_print(companyDict)
 
 
 
@@ -200,14 +200,14 @@ car = {
 
 car.update({"color": "White"})  #UPDATE used for inserting new or editing the existing elements
 
-dict_print(**car)
+dict_print(car)
 car.update({'color':'blue'})
 print('45s4df5s4')
 #dict_print(**car)
 
 
 x = car.setdefault('color', 'red')  #if the 'color' key exists the 'red' value has no effect, else=> create the key with that value
-dict_print(**car)
+dict_print(car)
 
 j, k, l = 15, 29, 56
 
@@ -256,3 +256,12 @@ def my_function(country = "Norway"):  #default value for arguments
 my_function("Sweden")
 my_function("India")
 my_function()
+
+
+def my_function(food):
+  for x in food:   #the 'food' argument will be any type you pass
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
