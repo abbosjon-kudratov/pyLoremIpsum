@@ -227,7 +227,14 @@ for x in "banana":   #for loop can iterate through anything and no need for inde
 
 for x in range(6):
     print("hello world from ", x)
+else:
+  print("Finally finished!")
 
 
 for x in range(2,6):  #range(2,6) means from 2 as start and not including 6
     print("hello world from ", x)
+else:   #this will execute after loop is over
+  print("Finally finished!")
+
+for x in range(2, 30, 3):  #third parameter is by how much to increment
+  print(x)
