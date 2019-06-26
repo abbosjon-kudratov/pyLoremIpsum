@@ -265,3 +265,8 @@ def my_function(food):
 fruits = ["apple", "banana", "cherry"]
 
 my_function(fruits)
+
+def f1(smth):  # to return the square of the number
+    return smth**2
+
+print (f1(25))
