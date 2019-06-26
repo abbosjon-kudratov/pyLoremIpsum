@@ -270,3 +270,6 @@ def f1(smth):  # to return the square of the number
     return smth**2
 
 print (f1(25))
+print (f1(-25))
+print (f1(625))
+
