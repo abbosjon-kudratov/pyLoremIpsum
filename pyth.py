@@ -266,10 +266,10 @@ fruits = ["apple", "banana", "cherry"]
 
 my_function(fruits)
 
-def f1(smth=25):  # to return the square of the number
+def f1(smth=25, smth1=56):  # to return the square of the number
     return smth**2/smth-26
 
-print (f1(25))
+print (f1(25, 66))
 print (f1(-25))
 print (f1(625))
 print (f1(144))
