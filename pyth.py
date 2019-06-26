@@ -219,3 +219,15 @@ print("First is bigger") if j > k else print("They are equal") if j == k else pr
 if(j>k or l<k): print('something is wrong')
 elif (j<k and k<l): print('this is good')
 else: print('not good at all')
+
+
+for x in "banana":   #for loop can iterate through anything and no need for indexing variable
+  print(x)
+
+
+for x in range(6):
+    print("hello world from ", x)
+
+
+for x in range(2,6):  #range(2,6) means from 2 as start and not including 6
+    print("hello world from ", x)
