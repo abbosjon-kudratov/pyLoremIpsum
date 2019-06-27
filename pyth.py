@@ -319,3 +319,20 @@ def tri_recursion(k):
 
 print("\n\nRecursion Example Results")
 tri_recursion(3)
+
+
+
+
+#LAMBDA - nameless/ anonymous function
+
+# Use lambda functions when an anonymous function is required for a short period of time.
+
+x = lambda a, b, c : a + b + c  #take arguments : return results
+print(x(5, 6, 2))
+
+
+def myfunc(n):
+  return lambda a : a * n  # it's like a nested function
+
+twice=myfunc(2)
+print(twice(50))
