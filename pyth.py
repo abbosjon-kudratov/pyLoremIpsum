@@ -290,8 +290,10 @@ def function1(name1, name2):
 """
 
 def function1(name1, name2, name3):
-    return  name1-name2*name3
+    return  abs(name1-name2*name3)
 
 
 # function1(25,25)   - not allowed to call this
 print(function1(22,25,3))
+
+print(' fellow'.upper())
