@@ -282,4 +282,16 @@ print (f1(144))
 print(f1(56,56))
 
 
+""""
+def function1(name1, name2):   
+    return name1+name2
+    
+    #this function will be overwritten by next one
+"""
 
+def function1(name1, name2, name3):
+    return  name1-name2*name3
+
+
+# function1(25,25)   - not allowed to call this
+print(function1(22,25,3))
