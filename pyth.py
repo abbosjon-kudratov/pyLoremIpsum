@@ -297,3 +297,12 @@ def function1(name1, name2, name3):
 print(function1(22,25,3))
 
 print(' fellow'.upper())
+
+
+
+def fibonacci(n):     #recursive fibonacci
+    if(n==1): return 0
+    elif(n==2): return 1
+    else: return fibonacci(n-2)+fibonacci(n-1)
+
+print(fibonacci(9))
