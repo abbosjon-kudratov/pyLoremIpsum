@@ -306,3 +306,16 @@ def fibonacci(n):     #recursive fibonacci
     else: return fibonacci(n-2)+fibonacci(n-1)
 
 print(fibonacci(9))
+
+
+
+def tri_recursion(k):
+  if(k>0):
+    result = k+tri_recursion(k-1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(3)
