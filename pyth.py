@@ -348,10 +348,13 @@ print(cars)
 
 
 class helloWorld:
-    def __init__(self,name):
+    def __init__(self,name): # doesn't always have to be named self
+    # def __init__(something,name):   -also fine
+    #something.name=name    -also fine
+    #something.hello(name)   -also fine
         self.name = name
         self.hello(name)
-    def hello(self,name):
-        print("Hello World from {}! I'm from inside class function call".format(name))
+    def hello(smth, name):    #smth is used insted of 'self'
+        print("Hello World from {}! I'm from inside class function call".format(smth.name))
 
 hello1=helloWorld("AK")

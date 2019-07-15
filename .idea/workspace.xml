@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3b0ce9-85c9-414f-800f-3ab1bccd1202" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyth.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyth.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="354" column="71" selection-start-line="354" selection-start-column="71" selection-end-line="354" selection-end-column="71" />
+            <state relative-caret-position="199">
+              <caret line="359" column="23" lean-forward="true" selection-start-line="359" selection-start-column="23" selection-end-line="359" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -128,12 +127,12 @@
       <workItem from="1561473303630" duration="1109000" />
       <workItem from="1561555979325" duration="5679000" />
       <workItem from="1561619945202" duration="5769000" />
-      <workItem from="1563216422234" duration="1148000" />
+      <workItem from="1563216422234" duration="1587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36841000" />
+    <option name="totallyTimeSpent" value="37280000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -203,8 +202,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pyth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="354" column="71" selection-start-line="354" selection-start-column="71" selection-end-line="354" selection-end-column="71" />
+        <state relative-caret-position="199">
+          <caret line="359" column="23" lean-forward="true" selection-start-line="359" selection-start-column="23" selection-end-line="359" selection-end-column="23" />
         </state>
       </provider>
     </entry>
