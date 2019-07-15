@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3b0ce9-85c9-414f-800f-3ab1bccd1202" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyth.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyth.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="337" column="16" lean-forward="true" selection-start-line="337" selection-start-column="16" selection-end-line="337" selection-end-column="16" />
+            <state relative-caret-position="155">
+              <caret line="354" column="71" selection-start-line="354" selection-start-column="71" selection-end-line="354" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -126,12 +127,13 @@
       <workItem from="1561463235362" duration="1089000" />
       <workItem from="1561473303630" duration="1109000" />
       <workItem from="1561555979325" duration="5679000" />
-      <workItem from="1561619945202" duration="4814000" />
+      <workItem from="1561619945202" duration="5769000" />
+      <workItem from="1563216422234" duration="1148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34738000" />
+    <option name="totallyTimeSpent" value="36841000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -196,13 +198,13 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/untitled$pyth.coverage" NAME="pyth Coverage Results" MODIFIED="1561625513085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$pyth.coverage" NAME="pyth Coverage Results" MODIFIED="1563218318942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pyth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="337" column="16" lean-forward="true" selection-start-line="337" selection-start-column="16" selection-end-line="337" selection-end-column="16" />
+        <state relative-caret-position="155">
+          <caret line="354" column="71" selection-start-line="354" selection-start-column="71" selection-end-line="354" selection-end-column="71" />
         </state>
       </provider>
     </entry>

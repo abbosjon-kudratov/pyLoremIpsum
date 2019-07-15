@@ -336,3 +336,22 @@ def myfunc(n):
 
 twice=myfunc(2)
 print(twice(50))
+
+
+
+cars = ["Ford", "Volvo", "BMW", "Volvo"]  # no arrays in Python, use lists instead
+#cars.pop(2)
+cars.remove('Volvo') #delets only the first occurence
+print(cars)
+
+
+
+
+class helloWorld:
+    def __init__(self,name):
+        self.name = name
+        self.hello(name)
+    def hello(self,name):
+        print("Hello World from {}! I'm from inside class function call".format(name))
+
+hello1=helloWorld("AK")
