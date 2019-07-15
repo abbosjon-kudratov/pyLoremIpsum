@@ -354,8 +354,9 @@ class helloWorld:
     #something.hello(name)   -also fine
         self.name = name
         self.hello(name)
-    def hello(smth,name):    #smth is used insted of 'self'
+    def hello(smth, name):    #smth is used insted of 'self'
         print("Hello World from {}! I'm from inside class function call".format(smth.name))
 
 hello1=helloWorld("AK")
-hello1.hello('ASLDJALSDJlj')  #doesn't take this argument anyway ))
+hello1.name = "MKY"
+hello1.hello('ASLhgkgfkfk')  #doesn't take this argument anyway ))
