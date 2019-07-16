@@ -360,3 +360,19 @@ class helloWorld:
 hello1=helloWorld("AK")
 hello1.name = "MKY"
 hello1.hello('ASLhgkgfkfk')  #doesn't take this argument anyway ))
+del hello1.name  #delete the object property
+del hello1  #delete the object itself!
+
+
+class person:
+    def __init__(self, name):
+        self.name=name
+
+class student(person):   #inherits from person class
+    # pass    -use this if you dont wanna add anything else
+    def __init__(self, name):
+        self.name=name+" Doe"
+
+x1=student("Johnny")
+print("Student's name is "+x1.name)
+
