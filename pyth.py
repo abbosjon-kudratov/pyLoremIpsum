@@ -372,7 +372,8 @@ class student(person):   #inherits from person class
     # pass    -use this if you dont wanna add anything else
     def __init__(self, name):
         self.name=name+" Doe"
-
+        # person.__init__(self, name)
+x=person("Mackky")
 x1=student("Johnny")
 print("Student's name is "+x1.name)
-
+print(x.name)
